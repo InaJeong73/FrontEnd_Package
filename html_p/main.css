@@ -1,0 +1,9 @@
+hr{
+    border:none;
+    border-top:2px dashed red;
+    
+    /* border: 2px dashed red; 
+    border: none; 선을 사용하지 않겠다. 
+    border: 2px dashed red; 2px두께의 점선을 넣을건데 색상은 빨간색
+    padding: 20px;*/
+} 
