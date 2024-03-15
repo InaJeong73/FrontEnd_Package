@@ -21,7 +21,7 @@ const todos=[
     {
         id:4,
         text:"CSS 입문",
-        done: true,
+        done: false,
     },
 ];
 
@@ -30,3 +30,6 @@ const index2=todos.findIndex(todo=>todo.id===3);
 const todoObject=todos.find(todo=>todo.done===true);
 console.log(index2);
 console.log(todoObject);
+
+const tasksNotDone=todos.filter(todo=>todo.done);
+console.log(tasksNotDone);
