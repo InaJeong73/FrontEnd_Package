@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Elements</title>
+</head>
+<body>
+    <progress value="0" max="100">70 %</progress>  
+    <script>
+        const progress=document.querySelector('progress');
+        const interval=setInterval(function(){
+            progress.value+=10;
+            if(progress.value>=100)clearInterval(interval);
+        },1000)
+        // 1초에 한번씩 progress value값을 10씩 더한다. 
+        // value값이 100이 되었을 때, interval함수를 정지한다. 
+    </script>
+</body>
+</html>
