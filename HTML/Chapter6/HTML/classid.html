@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Elements</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <style>
+        .section{
+            width: 100px;
+            color: red;
+            background:blue;
+        }
+        #section{
+            height: 200px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML 내에서 중복 사용하려면 class를, 고유하라면 id를 이용한다. -->
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div id="section"></div>
+
+    <script>
+        const section=document.querySelector('.setion');
+        // class가 section인 요소를 검색한다. 
+        const sectionId=document.getElementById('setion');
+        // id가 section인 요소를 검색한다. 
+    </script>
+
+</body>
+</html>
