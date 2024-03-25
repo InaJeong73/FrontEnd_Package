@@ -22,6 +22,9 @@ const numbers={
     }
 };
 
+console.log(numbers._a);
+console.log(numbers._b);
+
 console.log(numbers.sum);
 numbers.a=5;
 numbers.b=7;
