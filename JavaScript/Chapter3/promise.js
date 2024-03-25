@@ -4,6 +4,7 @@ const myPromise = new Promise((resolve, reject) => {
     }, 1000)
 });
 
+//promise가 끝나고 어떤 작업을 하고 싶다면 then()이라는 함수를 이용하면 됌.
 myPromise.then(result => {
     console.log(result);
 }).catch(e=>{
